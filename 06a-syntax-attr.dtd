@@ -1,0 +1,16 @@
+<!-- Syntax für eine Attributliste -->
+<!ATTLIST Elementname Attributname Attributtyp #Vorkommen>
+
+
+<!-- Beispiel HTML -->
+<!ATTLIST img src CDATA #REQUIRED
+          align (left|center|right) "left"
+          alt CDATA #IMPLIED
+          typ CDATA #FIXED "image">
+
+
+
+
+
+<!-- Beispiel XML -->
+<!ATTLIST bild adresse CDATA #REQUIRED>

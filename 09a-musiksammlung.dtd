@@ -1,0 +1,38 @@
+<!-- hier eintragen -->
+
+<!-- Root-Element -->
+<!ELEMENT musiksammlung (album+)>
+
+<!-- Elemente der 2. Ebene -->
+<!ELEMENT album (
+    autor,
+    (interpret | gruppe),
+    title,
+    gesamtspielzeit?,
+    label?,
+    jahr?,
+    bild*,
+    lied*
+)>
+<!ATTLIST album typ ( CD | MP3 | Vinyl | MC ) "MP3">
+
+<!-- Elemente der 3. Ebene -->
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT interpret (#PCDATA)>
+<!ELEMENT gruppe (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT gesamtspielzeit (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT jahr (#PCDATA)>
+<!ELEMENT bild (#PCDATA)>
+<!ATTLIST bild
+    <!-- hier eintragen -->
+    quelle CDATA #REQUIRED
+>
+
+<!ELEMENT lied (#PCDATA)>
+    
+<!-- 
+  ! Übungen 
+  ? uebung-xml-k05
+-->

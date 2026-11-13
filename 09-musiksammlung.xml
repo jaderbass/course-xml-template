@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musiksammlung SYSTEM "09a-musiksammlung.dtd">
+
+<musiksammlung>
+   
+    <album typ="CD">
+        <autor></autor>
+        <title>Play</title>
+        <interpret>Moby</interpret>
+        <gesamtspielzeit>63:03</gesamtspielzeit>
+        <label></label>
+        <jahr>1999</jahr>
+        <bild typ="jpg" quelle="images/moby_play1.jpg" />
+        <bild typ="jpg" quelle="images/moby_play2.jpg" />
+        <lied>Honey</lied>
+        <lied>Find my baby</lied>
+        <lied>Porcelain</lied>
+        <lied>Why does my heart feel so bad?</lied>
+        <lied>South side</lied>
+        <lied>Rushing</lied>
+        <lied>Bodyrock</lied>
+        <lied>Natural Blues</lied>
+        <lied>Machete</lied>
+    </album>
+    
+    <album>
+        <title>Fragmente</title>
+        <interpret>Mesh</interpret>
+        <gesamtspielzeit>54:48</gesamtspielzeit>
+        <label></label>
+        <jahr>1997</jahr>
+        <bild typ="gif" quelle="images/mesh.gif" />
+        <lied>Trust on you</lied>
+        <lied>My defender</lied>
+        <lied>...</lied>
+    </album>
+    
+    <album typ="Vinyl">
+        <title>Minor earth and major sky</title>
+        <gruppe>a-ha</gruppe>
+        <gesamtspielzeit>55:06</gesamtspielzeit>
+        <label></label>
+        <jahr>1999</jahr>
+        <bild typ="jpg" quelle="images/aha_minor.jpg" />
+        <lied>Minor earth and major sky</lied>
+        <lied>Little black</lied>
+        <lied>...</lied>
+    </album>
+    
+</musiksammlung>

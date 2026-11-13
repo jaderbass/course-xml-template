@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musiksammlung [
+    <!ELEMENT musiksammlung (album+)>
+    
+    <!ELEMENT album (autor?,
+                    bild?,
+                    title, 
+                    (interpret | gruppe), 
+                    gesamtspielzeit, 
+                    label, 
+                    lied*)>
+    <!-- Attribut definieren -->
+    
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT bild EMPTY>                
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT interpret (#PCDATA)>
+    <!ELEMENT gruppe (#PCDATA)>
+    <!ELEMENT gesamtspielzeit (#PCDATA)>
+    <!ELEMENT label (#PCDATA)>
+    <!ELEMENT lied (#PCDATA)>
+    
+    <!-- Entity einfügen und im Element "autor" nutzen -->
+]>
+
+<musiksammlung>
+   
+    <album typ="CD">
+        <autor></autor>
+        <title>Play</title>
+        <interpret>Moby</interpret>
+        <gesamtspielzeit>63:03</gesamtspielzeit>
+        <label>Mute Records Limited</label>
+        <lied>Honey</lied>
+        <lied>Find my baby</lied>
+        <lied>Porcelain</lied>
+        <lied>Why does my heart feel so bad?</lied>
+        <lied>South side</lied>
+        <lied>Rushing</lied>
+        <lied>Bodyrock</lied>
+        <lied>Natural Blues</lied>
+        <lied>Machete</lied>
+    </album>
+    
+    <album>
+        <title>Fragmente</title>
+        <interpret>Mesh</interpret>
+        <gesamtspielzeit>54:48</gesamtspielzeit>
+        <label>T-Sommer Ltd.</label>
+        <lied>Trust on you</lied>
+        <lied>My defender</lied>
+        <lied>...</lied>
+    </album>
+    
+    <album typ="Vinyl">
+        <title>Minor earth and major sky</title>
+        <gruppe>a-ha</gruppe>
+        <gesamtspielzeit>55:06</gesamtspielzeit>
+        <label>Sony Music</label>
+        <lied>Minor earth and major sky</lied>
+        <lied>Little black</lied>
+        <lied>...</lied>
+    </album>
+    
+</musiksammlung>
